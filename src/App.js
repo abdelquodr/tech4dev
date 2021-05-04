@@ -11,13 +11,12 @@ function App({loading, post, err}) {
     <Router >
       <Switch>
           <Route exact path='/'>
-            <CharacterList data={post} />
+            <CharacterList data={post} loading={loading} err={err} />
           </Route>
           <Route path="/character-details/:name">
               <CharacterDetails />
           </Route>
       </Switch>
-
     </Router>
   )
 }

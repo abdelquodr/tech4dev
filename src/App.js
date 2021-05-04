@@ -1,7 +1,7 @@
 
 import { CharacterList} from './components/CharacterList'
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import { CharacterDetails } from  './components/CharacterDetails'
+import  CharacterDetails from  './components/CharacterDetails'
 
 import { connect } from 'react-redux'
 
